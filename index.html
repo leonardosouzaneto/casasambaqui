@@ -1,36 +1,62 @@
 <!DOCTYPE HTML>
-
 <html>
 	<head>
 		<title>Casa Sambaqui</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="text/javascript">
+			function MM_preloadImages() { //v3.0
+			  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+			    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+			    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+			}
+		</script>
+		<style>
+			/* Estilize o slide e as imagens conforme desejado */
+			.slideshow {
+				width: 100%;
+				height: 300px;
+				position: relative;
+				overflow: hidden;
+			}
+
+			.slide {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				transition: opacity 1s ease;
+			}
+
+			/* Esconda todas as imagens, exceto a primeira */
+			.slide:not(:first-child) {
+				opacity: 0;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
-
-			<header id="header">
-				<h1>Casa Sambaqui</h1>
-				<p>Clique aqui para conversarmos pelo WhatsApp:
-	            <a href="https://wa.me/5551999262563" target="new"><img src="images/whats_talk.png" width="291" height="46" alt="" longdesc="https://wa.me/5551999262563"></a></p>
-			</header>
-
 		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-whatsapp"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands fa-facebook"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>Produtora A+</li>
-					<li>Créditos: A+</li>
-				</ul>
-			</footer>
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands fa-whatsapp"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook"><span class="label">GitHub</span></a></li>
+				<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>Produtora A+</li>
+				<li>Créditos: LSN</li>
+			</ul>
+		</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/main.js"></script>
-
+		<script src="assets/js/main.js"></script>
+		<header id="header">
+			<h1>Casa Sambaqui</h1>
+			<p>Clique aqui para conversarmos pelo WhatsApp: <a href="https://wa.me/5551999509894" target="new"><img src="images/whats_talk.png" alt="" width="291" height="46" longdesc="https://wa.me/5551999509894" border="0"></a></p>
+		</header>
+		<p>&nbsp;</p>
+		
+		</script>
 	</body>
 </html>
